@@ -1,6 +1,6 @@
 # Compilando:
 No terminal, dentro da pasta src inserir:
-javac -d . br/ufla/gct052/encapsulamento/model/*.java br/ufla/gct052/encapsulamento/app/*.java
+"javac -d . br/ufla/gct052/encapsulamento/model/*.java br/ufla/gct052/encapsulamento/app/*.java"
 
 # Executando:
 Ainda dentro da pasta src, executar:
