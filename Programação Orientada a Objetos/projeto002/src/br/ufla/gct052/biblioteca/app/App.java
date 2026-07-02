@@ -35,16 +35,6 @@ public class App {
             System.out.println("\n" + biblioteca.getUsuarios().get(i));
         }
 
-        // ArrayList listaUsuarios = biblioteca.getUsuarios();
-        // for (int i = 0; i < listaUsuarios.size(); i++) {
-        //     System.out.println(listaUsuarios.get(i));
-        // }
-
-        // for(Usuario u: usuarios){
-        //     System.out.println(u.toString());
-        //     System.out.println(u.getLimiteEmprestimos());
-        // } 
-
         System.out.println("\n-- Emprestando livros ao aluno.");
         biblioteca.emprestar("001", "101");
         System.out.println("- Primeiro livro emprestado.\nNúmero de empréstimos ativos: " + a1.getEmprestimosAtivos());
